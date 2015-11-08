@@ -11,6 +11,8 @@ namespace GITSccTest
         static void Main(string[] args)
         {
             //Test of scc
+            // second version
+
         }
     }
 }
