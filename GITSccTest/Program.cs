@@ -13,6 +13,7 @@ namespace GITSccTest
             //Test of scc
             // second version
             //third change
+            Console.WriteLine("Hello World");
 
         }
     }
