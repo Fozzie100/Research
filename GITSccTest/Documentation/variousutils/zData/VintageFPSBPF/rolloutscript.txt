@@ -1,0 +1,17 @@
+
+
+1. Run the powershell script vintageFPS_refactor_scripts.ps1
+   This includes the data update scripts
+
+		RunsetsConfigVintageFPs.sql -- adds the job dependcies etc.
+		RunsetsImpairmentFactDataPopulate.sql' # convert -ve runsetids to +ve ones via runsetidgenerator
+
+
+2. Run the job 'BCARD_GRCRBPF_VINTAGEFP_CONS1' for COB=Dec2015, Jan2016, Feb2016, Mar2016, Apr 2016and anymore dates whare data is available
+3. Run job 'BCARD_GRCRBPF_VINTAGEFP_CONS2' for Mar2016, Apr 2016 and anymore dates available
+
+4. Run sproc exec [bi].[uspLoadGRCR_BPF_JayFPInitialFactData] @p_Run=11688  -- Dec 2015 initial accounts in Forberance to Fact
+5. Run sproc exec [bi].[uspLoadGRCR_BPF_ChargeOffInitialFactData] @p_Run=29799 -- Dec 2015 initial accounts in Chargeoff to Fact
+
+
+6. Run JobDefinition 'BARCLAYCARD_bpf_vntg_arrslvlgrip_book_noyr' for Mar 2016 and Apr 2016

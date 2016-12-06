@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowTutorial", "SpecFlowTutorial\SpecFlowTutorial.csproj", "{12F43FBE-87DD-46B7-8E7F-24C2BC220FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F43FBE-87DD-46B7-8E7F-24C2BC220FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F43FBE-87DD-46B7-8E7F-24C2BC220FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F43FBE-87DD-46B7-8E7F-24C2BC220FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F43FBE-87DD-46B7-8E7F-24C2BC220FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,779 @@
+
+
+OBservations
+Dont like joining on Audit_TimeStamp  (could be 3/4ms difference 
+
+--
+-- Entity to atomise
+--
+
+
+
+CASE WHEN at_data.Application_ID <> '' THEN 'ApplicationId-' END,
+						CASE WHEN at_data.APP_TYPE <> '' THEN 'AppType-' END,
+						CASE WHEN at_data.ERA_SCRE <> '' THEN 'EraScre-' END,
+						CASE WHEN at_data.MAIN_SCOR_REQD_NODE_ID <> '' THEN 'MainScorReqdNodeId' END
+						
+						
+						
+						
+--
+-- Jakub Notes
+--
+12:53	Jakub Kasprzak	select top 10 * from stg.SDS_IF023_APP 
+12:53	Jakub Kasprzak	select top 10 * from stg.SDS_IF023_RES1 
+12:53	Jakub Kasprzak	select top 10 * from stg.SDS_IF023_RES4 
+12:53	Jakub Kasprzak	sure 
+12:53	Jakub Kasprzak	+48616272783 
+12:54	Jakub Kasprzak	to be honest these two are also good 
+12:54	Jakub Kasprzak	select top 10 * from stg.PRODUCT_OFFER 
+12:54	Jakub Kasprzak	select top 10 * from stg.BARCLAYCARD_APPLICATION 
+13:00	Jakub Kasprzak	please take a look at this proc bi.uspLoadGRCR_ACQ_FactData 
+
+
+bi.GRCR_SDS_IF023_APPLICATION_FactData
+uspProcessSDS_IF023_APPLICATION_Atomise ( bi.uspProcessSDS_IF023_APPLICATION_AtomiseChunk)
+
+bi.GRCR_SDS_IF023_RESULTS4_FactData   --- fact data
+Audit_TimeStamp atomised in 
+ref.uspProcessSDS_IF023_RES1_Atomise
+
+bi.GRCR_SDS_IF023_RES1_FactData
+bi.uspLoadGRCR_SDS_IF023_RES1_FactData (((bi].[uspLoadGRCR_SDS_IF023_RES1_FactDataChunk]))  --- uses
+
+
+
+bi.uspLoadGRCR_ACQ_FactData -- uses data from bi.GRCR_SDS_IF023_RES1_FactData table
+
+
+bi.GRCR_BARCLAYCARD_APPLICATION_FactData -- populated by bi.uspLoadGRCR_BARCLAYCARD_APPLICATION_FactData from Barclaycard_Application_201601.csv file
+
+--  how is bi.GRCR_SDS_IF023_Application_FactData table populated?
+-- answer: looks as though sproc. bi.uspLoadGRCR_SDS_IF023_APPLICATION_FactData does population
+ insert into #AppLatestTimestamp(ApplicationId,AuditTimestamp)
+		select a.ApplicationId , MAX(AuditTimestamp) as AuditTimestamp 
+		from bi.GRCR_SDS_IF023_Application_FactData
+ 
+ 
+ 
+ select  cast(f.ApplicationId as bigint) as ApplicationId, 
+
+acc.Descr as ApplicationChannelTypeDescr, 
+CreatedDate, 
+DecisionDate, 
+ApplicationStatusCode, 
+l.AuditTimestamp, 
+f.TriumphAccountNbrAttrKey, 
+f.TriumphAccountNbrAttrChangeListId, 
+case when CreatedDate between @FirstDayOfMonth and @LastDayOfMonth then 1 else null end as CD_flag, 
+case when DecisionDate between @FirstDayOfMonth and @LastDayOfMonth then 1 else null end as DD_flag 
+into #BARCLAYCARD_APPLICATION  -- select top 100 * 
+from bi.GRCR_BARCLAYCARD_APPLICATION_FactData (nolock) f  inner join #AppLatestTimestamp  l on f.ApplicationId=l.ApplicationId 
+left join #CreatedDateDIM  (nolock) cd on f.CreatedDateAttrKey = cd.CreatedDateAttrKeyID and f.CreatedDateAttrChangeListId =  cd.changelistid 
+left join #DecisionedDateDIM  (nolock) dd on f.DecisionDateAttrKey = dd.DecisionDateAttrKeyID and  f.DecisionDateAttrChangelistId =  dd.changelistid 
+left join #AppChTypeCode  acc on f.ApplicationChannelTypeCodeAttrKey = acc.ApplicationChannelTypeCodeAttrKeyID and f.ApplicationChannelTypeCodeAttrChangelistID = acc.ChangeListId 
+inner join bi.ApplicationStatusCodeSCD (nolock) ac on f.ApplicationStatusCodeAttrKey = ac.ApplicationStatusCodeAttrKeyID and f.ApplicationStatusCodeAttrChangeListId=ac.ChangeListId 
+where RunId = @AppLastRunId  and ( CreatedDate between @FirstDayOfMonth and @LastDayOfMonth or  DecisionDate between @FirstDayOfMonth and @LastDayOfMonth) 
+
+
+
+
+
+
+ 
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT TOP 1 1 FROM sys.objects (NOLOCK) WHERE object_id = OBJECT_ID(N'bi.uspLoadGRCR_ACQ_FactData') AND type in (N'P', N'PC'))
+BEGIN
+    -- Create stub, so main statement is an ALTER
+    EXEC('CREATE PROCEDURE bi.uspLoadGRCR_ACQ_FactData WITH RECOMPILE AS')
+END
+GO    
+
+
+ALTER PROCEDURE bi.uspLoadGRCR_ACQ_FactData (@cob_date datetime,@JobSetName varchar(128) = 'BCARD_GRCR_ACQ',@p_debug bit =0
+,@p_RunSetID int =NULL , @p_Run int = -1, @ProdOfferLastRunId int = null, @AppLatestTimestampLastRunId int = null, @Res1LastRunId int = null, @Res4LastRunId int = null, @AppLastRunId int = null, @AppChannelType int = null
+)
+AS
+BEGIN
+
+    BEGIN TRY;
+
+	 
+ 
+    -- Workaround for bug in SQL Server 2012 < SP2. 17/06/2014
+    -- This will disable the profile trace, when the procedure is called from within an INSERT-EXEC scenario.
+    -- This also only occurs when the procedure also has a temp table, which then has an index created on it.
+	IF (@@NESTLEVEL > 0 AND @@TRANCOUNT > 0)
+    BEGIN
+        SET STATISTICS PROFILE OFF;
+        SET STATISTICS XML OFF;
+    END
+	 
+    SET NOCOUNT ON;
+	
+	-- set dateformat ymd; declare @cob_date datetime = '2015-06-30' ,@JobSetName varchar(128) = 'BCARD_GRCR_ACQ',  @p_debug bit = 1   ,@span INT = 100000  ,   @p_RunSetID int = null , @p_run int =111
+
+	  DECLARE
+        @InitiatedTransaction bit = 0       ,@Retry smallint -- Keep, so catch block is the same
+       ,@Trancount smallint;
+
+
+	 -- runset implementation + workaround
+	 
+		DECLARE @RC int, @rowcount int, @msg varchar(1000)
+		DECLARE @p_JobDefinitionCode varchar(64)='ACQ_PRODUCT_OFFER'  --> First Job of my Jobset  
+		DECLARE @timestart datetime = getdate(), @timeend datetime
+      
+ 
+ 
+
+       EXECUTE @RC = [bi].[uspRunsetManager] 
+          @cob_date
+         ,@p_RunSetID OUTPUT
+         ,@p_JobDefinitionCode
+         ,@p_run
+         ,@p_debug
+
+	
+       ;with latestRuns as (  select *
+                           from (
+                           Select  LastRun, RunsetId, r.JoBDefinitionID, Row_number()  OVER( partition by r.JoBDefinitionID order by Cobdate desc,LastRun desc) as rn
+                           FROM    [loader].[Job] (NOLOCK) j inner join loader.jobdefinition jb on j.JobDefinitionCode = jb.JobDefinitionCode
+                                         inner join bi.RunSetsXRun r on jb.JobDefinitionId=r.JobDefinitionId
+                           WHERE   RunsetId =    @p_RunSetID 
+                                         AND [CobDate] between dateadd(dd,-(Day(@cob_date)-1),@cob_date) and  @cob_date
+                                         AND JobStatus = 'S' ) x
+                           where rn=1
+       )
+       update bi.RunSetsXRun      set RunId = LastRun 
+       from bi.RunSetsXRun x inner join latestRuns l on x.RunSetID = l.RunSetId and x.JobDefinitionId = l.JobDefinitionId
+       --where x.RunId is null
+
+
+
+	   -- update runset functionality if some of base RunIDs have been provided manually
+	    if (@ProdOfferLastRunId is not null)
+				update bi.RunSetsXRun      set RunId = @ProdOfferLastRunId 
+				-- select *
+				from bi.RunSetsXRun x inner join  loader.jobdefinition jb on x.JobDefinitionid = jb.JobDefinitionID   and jb.JobDefinitionCode = 'ACQ_PRODUCT_OFFER' and  RunsetId = @p_RunSetID 
+		
+		if (@AppLatestTimestampLastRunId is not null)
+				update bi.RunSetsXRun      set RunId = @AppLatestTimestampLastRunId 
+				-- select *
+				from bi.RunSetsXRun x inner join  loader.jobdefinition jb on x.JobDefinitionid = jb.JobDefinitionID   and jb.JobDefinitionCode = 'ACQ_SDS_IF023_Application' and  RunsetId = @p_RunSetID 
+		
+		if (@Res1LastRunId is not null)
+				update bi.RunSetsXRun      set RunId =  @Res1LastRunId 
+				-- select *
+				from bi.RunSetsXRun x inner join  loader.jobdefinition jb on x.JobDefinitionid = jb.JobDefinitionID   and jb.JobDefinitionCode = 'ACQ_SDS_IF023_RES1' and  RunsetId = @p_RunSetID 
+	
+		if (@Res4LastRunId is not null)
+				update bi.RunSetsXRun      set RunId =  @Res4LastRunId 
+				-- select *
+				from bi.RunSetsXRun x inner join  loader.jobdefinition jb on x.JobDefinitionid = jb.JobDefinitionID   and jb.JobDefinitionCode = 'ACQ_SDS_IF023_RES4' and  RunsetId = @p_RunSetID 
+		
+		if (@AppLastRunId is not null)
+				update bi.RunSetsXRun      set RunId =  @AppLastRunId 
+				-- select *
+				from bi.RunSetsXRun x inner join  loader.jobdefinition jb on x.JobDefinitionid = jb.JobDefinitionID   and jb.JobDefinitionCode = 'ACQ_BARCLAYCARD_APPLICATION' and  RunsetId = @p_RunSetID 
+	
+		if (@AppChannelType is not null)
+				update bi.RunSetsXRun      set RunId =  @AppChannelType 
+				-- select *
+				from bi.RunSetsXRun x inner join  loader.jobdefinition jb on x.JobDefinitionid = jb.JobDefinitionID   and jb.JobDefinitionCode = 'ACQ_APPLICATION_CHANNEL_TYPE' and  RunsetId = @p_RunSetID 
+	
+	 
+	  
+
+	  
+	if exists(select * from bi.RunSetsXRun where RunsetId=@p_RunSetID and RunId is null )
+		RAISERROR('There is no data to calculate ACQUISITION METRICS - null in runid',16,1)
+
+	   /*
+	select * from  bi.RunSetsXRun
+	select * from  bi.JOBSETsxJOB
+	select * from  bi.RunSets order by runsetid
+	Delete from  bi.RunSetsXRun where createdUsername like '%kaspr%'
+	Delete from bi.RunSets where  createdUsername like '%kaspr%'
+
+
+	select * from  bi.RunSetsXRun r inner join loader.jobdefinition jb on r.JobdefinitionId = jb.JobdefinitionId
+	where runsetid = 132
+	order by 1 
+
+
+	select * from bi.GRCR_Product_offer_FACTDATA
+
+	select * from loader.job where cobdate = '2015-09-27'
+	where createdUsername like '%kaspr%'
+
+	*/
+	 
+	
+	DECLARE @ProcName sysname = coalesce( app.sfnObjectName(@@PROCID),'bi.uspLoadGRCR_ACQ_FactData');
+
+	DECLARE @ProcMessage nvarchar(max) = 'EXEC ' + @ProcName 
+	+ ' @cobdate='+ coalesce(char(39) + convert(varchar(20),@cob_date,120) +char(39),'NULL')
+	+ ' ,@p_RunSetID=' + coalesce(convert(varchar(99),@p_RunSetID),'NULL') 
+
+	EXEC log.uspLogInsertDB @p_LogMessage = @ProcMessage, @p_LogLevel = 5,
+    @p_LogCategory = 'PROC.MESSAGE', @p_LogObject = @ProcName, @p_Run = @p_Run
+	IF @p_debug <> 0 
+		PRINT CONVERT(VARCHAR(128), @ProcName) + ' : ' + @ProcMessage;
+	 
+
+--	 select * from bi.RunSetsXRun order by runsetid
+
+
+    -- BEGIN Log Procedure Start  
+ 
+	
+     
+	 -- START IMPLEMENTATION
+	  
+	  	DECLARE @FirstDayOfMonth datetime = DATEADD(dd,-(DAY(@cob_date)-1),@cob_date)
+		DECLARE @LastDayOfMonth datetime = EOMONTH(@cob_date) 
+
+
+		 -- for testing purposes only (synthetic file)
+		--set @FirstDayOfMonth  = '2010-01-01'
+		--set @LastDayOfMonth   = '2016-12-31'
+
+		-- populateing temp tables -- DIMENSIONS 
+
+		set @timestart = getdate()
+
+		IF @p_debug <> 0 
+			PRINT ('Start populating dimensions' + convert( varchar(100),@timestart  ,120))
+
+		IF OBJECT_ID(N'tempdb.dbo.#CreatedDateDIM') IS NOT NULL 
+	       DROP TABLE #CreatedDateDIM
+    
+		select CreatedDateAttrKeyId, cast(CreatedDate as  date)  as CreatedDate, ChangeListId into #CreatedDateDIM
+		from bi.CreatedDateSCD (nolock)
+		where CreatedDate <>'BLANK'
+
+		CREATE CLUSTERED INDEX CL_CreateDateDIM	ON #CreatedDateDIM(CreatedDateAttrKeyId)
+		CREATE NONCLUSTERED INDEX CL_CreateDateDIM_Date	ON #CreatedDateDIM(CreatedDate)
+
+		IF OBJECT_ID(N'tempdb.dbo.#DecisionedDateDIM') IS NOT NULL 
+	       DROP TABLE #DecisionedDateDIM
+    
+		select DecisionDateAttrKeyId, cast(DecisionDate as  date)  as DecisionDate, ChangeListId into #DecisionedDateDIM
+		from bi.DecisionDateSCD (nolock)
+		where DecisionDate <>'BLANK'
+		
+		CREATE CLUSTERED INDEX CL_DecisionDateDIM	ON #DecisionedDateDIM (DecisionDateAttrKeyId)
+		CREATE NONCLUSTERED INDEX CL_DecisionDateDIM_Date	ON #DecisionedDateDIM (DecisionDate)
+
+			 
+
+		IF OBJECT_ID(N'tempdb.dbo.#AppChTypeCode') IS NOT NULL 
+	       DROP TABLE #AppChTypeCode
+		select acc.ApplicationChannelTypeCodeAttrKeyID, acc.ChangeListId, acc.ApplicationChannelTypeCode, accd.Descr into #AppChTypeCode
+		from bi.ApplicationChannelTypeCodeSCD (nolock) acc inner join bi.AppChannelTypeCodeAttrSCD accd on acc.ApplicationChannelTypeCode = accd.AppChannelTypeCode
+	 
+
+		CREATE CLUSTERED INDEX CL_AppChTypeCodeDim	ON #AppChTypeCode (ApplicationChannelTypeCodeAttrKeyID)
+		
+
+		IF @p_debug <> 0 
+			PRINT ('End populating dimensions' + cast(datediff(ss,@timestart,getdate()) as varchar(10)))
+	
+		-- business logic implementation
+		--	ProductOffer
+		if @ProdOfferLastRunId is null
+		begin		
+			Select @ProdOfferLastRunId  = (select top 1 MAX( RunId ) from bi.RunSetsXRun r inner join loader.jobdefinition d on r.JobDefinitionID = d.JobDefinitionID
+			where JobDefinitionCode = 'ACQ_PRODUCT_OFFER' and  RunsetId =  @p_RunSetID )
+		end
+
+		IF OBJECT_ID(N'tempdb.dbo.#Product_Offer') IS NOT NULL 
+	       DROP TABLE #Product_Offer
+
+		 select ApplicationId, CreditLimitAmount into #Product_Offer 
+		 from ( 
+		 
+				select ai.ApplicationId,				
+            	CreditLimitAmount,
+				posc.ProductOfferStatusCode,
+				 ROW_NUMBER() OVER(Partition by ApplicationID order by ProductOfferID desc) as rn
+		 from bi.GRCR_PRODUCT_OFFER_FactData (nolock) f 
+				inner join bi.ApplicationIdSCD (nolock) ai  on f.ApplicationIdAttrKey = ai.ApplicationIdAttrKeyID and f.ApplicationIdAttrChangeListId = ai.ChangeListId  
+				inner join bi.ProductOfferIdSCD (nolock) po on f.ProductOfferIdAttrKey = po.ProductOfferIdAttrKeyID and f.ProductOfferIdAttrChangeListId = po.ChangeListId
+				inner join bi.ProductOfferStatusCodeSCD (nolock) posc on f.ProductOfferStatusCodeAttrKey = posc.ProductOfferStatusCodeAttrKeyID and f.ProductOfferStatusCodeAttrChangeListId = posc.ChangeListId
+			
+		  where RunId = @ProdOfferLastRunId  and posc.ProductOfferStatusCode = 'A' ) x where rn=1 
+		 
+			
+		set  @msg = '#Product_Offer has been populated rows : ' + cast( @@ROWCOUNT as varchar(20)) 
+
+		CREATE CLUSTERED INDEX CL_Product_Offer 	ON #Product_Offer (ApplicationId)
+
+		EXEC log.uspLogInsertDB @p_LogMessage = @msg, @p_LogLevel = 5,
+				@p_LogCategory = 'PROC.MESSAGE', @p_LogObject = @ProcName, @p_Run = @p_Run	
+			IF @p_debug <> 0 
+			begin
+				PRINT ('End populating #Product_Offer : ' + cast(datediff(ss,@timestart,getdate()) as varchar(10)))+  ' s'
+				RAISERROR(@msg,1,1) with nowait
+			end
+
+
+		--	LatestTimestamp
+		if @AppLatestTimestampLastRunId is null
+		begin
+			SELECT @AppLatestTimestampLastRunId  = (select top 1  MAX(RunId ) from bi.RunSetsXRun r inner join loader.jobdefinition d on r.JobDefinitionID = d.JobDefinitionID
+			where JobDefinitionCode = 'ACQ_SDS_IF023_Application' and  RunsetId =  @p_RunSetID )
+		end
+		 
+		IF OBJECT_ID(N'tempdb.dbo.#AppLatestTimestamp') IS NOT NULL 
+				   DROP TABLE #AppLatestTimestamp
+		create table #AppLatestTimestamp
+		(
+			ApplicationId	bigint,
+			AuditTimestamp  decimal(28,8)		
+		);
+
+		Create clustered index  CL_LatestAuditTimestamp ON #AppLatestTimestamp (ApplicationId)
+				   
+		insert into #AppLatestTimestamp(ApplicationId,AuditTimestamp)
+		select a.ApplicationId , MAX(AuditTimestamp) as AuditTimestamp 
+		from bi.GRCR_SDS_IF023_Application_FactData (nolock) f inner join bi.ApplicationIdSCD (nolock)  a on f.ApplicationIdAttrKey =a.ApplicationIdAttrKeyID and f.ApplicationIdAttrChangeListId = a.ChangeListId
+		where runid = @AppLatestTimestampLastRunId
+		GROUP by  a.ApplicationId 
+	
+		set  @msg = '#AppLatestTimestamp has been populated rows : ' + cast( @@ROWCOUNT as varchar(20))
+
+		EXEC log.uspLogInsertDB @p_LogMessage = @msg, @p_LogLevel = 5,
+				@p_LogCategory = 'PROC.MESSAGE', @p_LogObject = @ProcName, @p_Run = @p_Run	
+			IF @p_debug <> 0 
+			begin
+				PRINT ('End populating #AppLatestTimestamp : ' + cast(datediff(ss,@timestart,getdate()) as varchar(10)))+  ' s'
+				RAISERROR(@msg,1,1) with nowait
+			end
+ 
+		
+		--	SDS_IF023_Results1
+		if @Res1LastRunId is null
+		begin
+			select @Res1LastRunId  = (select top 1 MAX( RunId ) from bi.RunSetsXRun r inner join loader.jobdefinition d on r.JobDefinitionID = d.JobDefinitionID
+			where JobDefinitionCode = 'ACQ_SDS_IF023_RES1' and  RunsetId =  @p_RunSetID )
+		end
+
+		IF OBJECT_ID(N'tempdb.dbo.#Res1') IS NOT NULL 
+				   DROP TABLE #Res1
+				   
+		select cast(at.ApplicationId as int) as ApplicationId, a.AppType , AuditTimestamp into #Res1
+		-- select *
+		from bi.GRCR_SDS_IF023_RES1_FactData (nolock) f 
+			inner join bi.AppTypeSCD a on f.AppTypeAttrKey=a.AppTypeAttrKeyID and f.AppTypeAttrChangeListId=a.ChangeListId
+			inner join bi.ApplicationIdSCD at on  f.ApplicationIdAttrKey =at.ApplicationIdAttrKeyID and f.ApplicationIdAttrChangeListId = at.ChangeListId
+		where runid =   @Res1LastRunId
+		 
+		set  @msg = '#Res1 has been populated rows : ' + cast( @@ROWCOUNT as varchar(20))
+
+		CREATE CLUSTERED INDEX CL_ApplicationID_R1 ON #Res1 (ApplicationId,AuditTimestamp)
+		 
+		EXEC log.uspLogInsertDB @p_LogMessage = @msg, @p_LogLevel = 5,
+				@p_LogCategory = 'PROC.MESSAGE', @p_LogObject = @ProcName, @p_Run = @p_Run	
+			IF @p_debug <> 0 
+			begin
+				PRINT ('End populating #Res1 : ' + cast(datediff(ss,@timestart,getdate()) as varchar(10)))+  ' s'
+				RAISERROR(@msg,1,1) with nowait
+			end
+
+		--	SDS_IF023_Results4
+
+		if @Res4LastRunId is null
+		begin
+			select @Res4LastRunId  = (select top 1 MAX( RunId ) from bi.RunSetsXRun r inner join loader.jobdefinition d on r.JobDefinitionID = d.JobDefinitionID
+			where JobDefinitionCode = 'ACQ_SDS_IF023_RES4' and  RunsetId =  @p_RunSetID )
+		end
+ 
+
+		IF OBJECT_ID(N'tempdb.dbo.#Res4') IS NOT NULL 
+				   DROP TABLE #Res4
+				   
+		select cast(at.ApplicationId as int) as ApplicationId, e.Eq5RiskScre1, f.AuditTimestamp into #Res4
+		-- select *
+		from bi.GRCR_SDS_IF023_Results4_FactData (nolock) f 
+			inner join bi.Eq5RiskScre1SCD e on f.Eq5RiskScre1AttrKey = e.Eq5RiskScre1AttrKeyID and f.Eq5RiskScre1AttrChangeListId=e.ChangeListId
+			inner join bi.ApplicationIdSCD at on  f.ApplicationIdAttrKey =at.ApplicationIdAttrKeyID and f.ApplicationIdAttrChangeListId = at.ChangeListId
+		where runid = @Res4LastRunId
+		
+		set  @msg = '#Res4 has been populated rows : ' + cast( @@ROWCOUNT as varchar(20))
+
+		CREATE NONCLUSTERED INDEX CL_ApplicationID_R4 ON #Res4 (ApplicationId,AuditTimestamp)
+				
+		EXEC log.uspLogInsertDB @p_LogMessage = @msg, @p_LogLevel = 5,
+				@p_LogCategory = 'PROC.MESSAGE', @p_LogObject = @ProcName, @p_Run = @p_Run	
+			IF @p_debug <> 0 
+			begin
+				PRINT ('End populating #Res1 : ' + cast(datediff(ss,@timestart,getdate()) as varchar(10)))+  ' s'
+				RAISERROR(@msg,1,1) with nowait
+			end
+	 
+
+ 
+		--------------------------------------------------------------------------------------------------------
+		--------------------------------------------------------------------------------------------------------
+		--------------------------------------------------------------------------------------------------------
+		-- Final table
+		-- declare @p_RunSetID int = 61 	, @FirstDayOfMonth  date = '2010-01-01' ,@LastDayOfMonth   date = '2016-12-31'
+		
+
+		if @AppLastRunId is null
+		begin
+			select @AppLastRunId  = (select top 1 MAX( RunId ) from bi.RunSetsXRun r inner join loader.jobdefinition d on r.JobDefinitionID = d.JobDefinitionID
+			where JobDefinitionCode = 'ACQ_BARCLAYCARD_APPLICATION' and  RunsetId =  @p_RunSetID )
+		end
+
+		 
+
+		IF OBJECT_ID(N'tempdb.dbo.#BARCLAYCARD_APPLICATION') IS NOT NULL 
+	       DROP TABLE #BARCLAYCARD_APPLICATION
+
+		select  cast(f.ApplicationId as bigint) as ApplicationId, 
+				
+				acc.Descr as ApplicationChannelTypeDescr,
+				CreatedDate, 
+				DecisionDate,
+				ApplicationStatusCode,
+				l.AuditTimestamp,
+				f.TriumphAccountNbrAttrKey,
+				f.TriumphAccountNbrAttrChangeListId,
+				case when CreatedDate between @FirstDayOfMonth and @LastDayOfMonth then 1 else null end as CD_flag,
+				case when DecisionDate between @FirstDayOfMonth and @LastDayOfMonth then 1 else null end as DD_flag		
+		into #BARCLAYCARD_APPLICATION -- select top 100 *
+		from bi.GRCR_BARCLAYCARD_APPLICATION_FactData (nolock) f  inner join  #AppLatestTimestamp l on f.ApplicationId=l.ApplicationId
+			left join #CreatedDateDIM (nolock) cd on f.CreatedDateAttrKey = cd.CreatedDateAttrKeyID and f.CreatedDateAttrChangeListId =  cd.changelistid
+			left join #DecisionedDateDIM (nolock) dd on f.DecisionDateAttrKey = dd.DecisionDateAttrKeyID and  f.DecisionDateAttrChangelistId =  dd.changelistid
+			left join #AppChTypeCode acc on f.ApplicationChannelTypeCodeAttrKey = acc.ApplicationChannelTypeCodeAttrKeyID and f.ApplicationChannelTypeCodeAttrChangelistID = acc.ChangeListId
+			inner join bi.ApplicationStatusCodeSCD (nolock) ac on f.ApplicationStatusCodeAttrKey = ac.ApplicationStatusCodeAttrKeyID and f.ApplicationStatusCodeAttrChangeListId=ac.ChangeListId
+			where RunId = @AppLastRunId  and ( CreatedDate between @FirstDayOfMonth and @LastDayOfMonth or  DecisionDate between @FirstDayOfMonth and @LastDayOfMonth)
+
+
+
+
+
+
+		 
+		set  @msg = '#BARCLAYCARD_APPLICATION has been populated rows : ' + cast( @@ROWCOUNT as varchar(20))
+		 
+		CREATE CLUSTERED INDEX CL_BARCLAYCARD_APPLICATION 	ON #BARCLAYCARD_APPLICATION (ApplicationId,AuditTimestamp);
+
+		EXEC log.uspLogInsertDB @p_LogMessage = @msg, @p_LogLevel = 5,
+				@p_LogCategory = 'PROC.MESSAGE', @p_LogObject = @ProcName, @p_Run = @p_Run	
+			IF @p_debug <> 0 
+			begin
+				PRINT ('End populating #BARCLAYCARD_APPLICATION : ' + cast(datediff(ss,@timestart,getdate()) as varchar(10)))+  ' s'
+				RAISERROR(@msg,1,1) with nowait
+			end
+		
+		
+
+		IF OBJECT_ID(N'tempdb.dbo.#finalResults') IS NOT NULL 
+	       DROP TABLE #finalResults
+
+			;with cte as  (
+		
+			select b.ApplicationId,
+					b.ApplicationChannelTypeDescr,
+					b.CreatedDate,
+					b.DecisionDate,
+					b.ApplicationStatusCode,
+					r4.Eq5RiskScre1,
+					r1.AppType,
+					p_o.CreditLimitAmount,
+					b.TriumphAccountNbrAttrKey,
+					b.TriumphAccountNbrAttrChangeListId,
+					CD_flag,
+					DD_flag
+			from #BARCLAYCARD_APPLICATION b 
+				left join #res1 r1 on b.ApplicationId = r1.ApplicationId and b.AuditTimestamp=r1.AuditTimestamp
+				left join #res4 r4 on b.ApplicationId = r4.ApplicationId and b.AuditTimestamp=r4.AuditTimestamp
+				left join #Product_Offer p_o on b.ApplicationId = p_o.ApplicationId 
+			)
+			select 
+					ApplicationId,ApplicationStatusCode,AppType,Eq5RiskScre1,TriumphAccountNbrAttrKey, TriumphAccountNbrAttrChangeListId, CD_flag, DD_flag,
+				  sum(case when ApplicationStatusCode in (2,5,6) then 1 else 0 end) as  decisioned,
+				  sum(case when ApplicationStatusCode in (2,5) then 1 else 0 end) as  approved ,
+				  sum(case when ApplicationStatusCode in (6) then 1 else 0 end) as declined , 
+				  sum(case when ApplicationStatusCode in (2,5) and AppType <> '60.00' and Eq5RiskScre1 > 0  then 1 else 0 end) as App_Score_Count,
+				  sum(case when ApplicationStatusCode in (2,5) and AppType <> '60.00' then Eq5RiskScre1 else 0 end) as App_Score,
+				  sum(case when ApplicationStatusCode in (5) then 1 else 0 end) as Booked_Act,
+				  sum(case when ApplicationStatusCode in (5) then  isnull(CreditLimitAmount,0) end)  as Booking_Amt ,
+					count( * ) as cnt ,
+					GROUPING_ID(ApplicationId) as gpid
+				  into #finalResults
+			from cte 
+			group by grouping sets(
+				(CD_flag), 
+				(DD_flag),
+				(ApplicationId,ApplicationStatusCode,AppType,Eq5RiskScre1,TriumphAccountNbrAttrKey, TriumphAccountNbrAttrChangeListId, CD_flag, DD_flag)
+			)
+
+			
+
+			set @rowcount = @@ROWCOUNT
+
+			set  @msg = '#finalResults has been populated rows : ' + cast( @@ROWCOUNT as varchar(20))
+   
+			EXEC log.uspLogInsertDB @p_LogMessage = @msg, @p_LogLevel = 5,
+				@p_LogCategory = 'PROC.MESSAGE', @p_LogObject = @ProcName, @p_Run = @p_Run	
+			IF @p_debug <> 0 
+			begin
+				PRINT ('End populating #finalResults : ' + cast(datediff(ss,@timestart,getdate()) as varchar(10)))+  ' s'
+				RAISERROR(@msg,1,1) with nowait
+			end
+
+
+
+   -- select * from #finalResults where gpid =1
+    -- final insert
+	 -- set dateformat ymd; declare @cob_date datetime = '2015-09-30', @p_RunSetID int = 136, @p_run int = -1
+
+	 -- loading granular data
+	 
+	 if (@rowcount>0)
+	 begin
+	 	 -- set dateformat ymd; declare @cob_date datetime = '2015-06-30', @p_RunSetID int = 136, @p_run int = -1
+			insert into [bi].[GRCR_ACQ_FactData]
+	           ([RunSetID]
+           ,[RunId]
+		   ,[ApplicationID]
+		   ,TriumphAccountNbrAttrKey
+		   ,TriumphAccountNbrAttrChangeListId
+           ,[metric]
+           ,[metricType]
+           ,[cob_date]
+           ,[groupingID])		
+		    -- declare @cob_date datetime = '2015-09-27', @p_RunSetID int = 123, @p_run int = -1
+		   select 
+				  @p_RunSetID,
+					@p_run,
+					applicationId,
+					TriumphAccountNbrAttrKey,
+					TriumphAccountNbrAttrChangeListId,
+					1,
+		   'Applications:decisioned'	,
+		    CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					0
+			-- select * 
+			from #finalResults where gpid=0 and applicationId is not null and decisioned=1  and DD_flag = 1
+
+
+			
+			UNION ALL
+			select 
+				  @p_RunSetID,
+					@p_run,
+					applicationId,
+					TriumphAccountNbrAttrKey,
+					TriumphAccountNbrAttrChangeListId,
+					1,
+		   'Applications:approved'	,
+		    CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					0
+				-- select *
+			from #finalResults where gpid=0 and applicationId is not null and approved=1 and DD_flag = 1
+
+			
+			UNION ALL
+			select 
+				  @p_RunSetID,
+					@p_run,
+					applicationId,
+					TriumphAccountNbrAttrKey,
+					TriumphAccountNbrAttrChangeListId,
+					1,
+		   'Applications: total'	,
+		    CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					0 
+				-- select *
+			from #BARCLAYCARD_APPLICATION where CD_FLag=1
+			UNION ALL
+			select 
+				  @p_RunSetID,
+					@p_run,
+					applicationId,
+					TriumphAccountNbrAttrKey,
+					TriumphAccountNbrAttrChangeListId,
+					1,
+		   'New Bookings: accounts',
+		    CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					0 
+				-- select *
+			from #finalResults where Booked_Act=1 and DD_Flag =1
+			UNION ALL
+			select 
+				  @p_RunSetID,
+					@p_run,
+					applicationId,
+					TriumphAccountNbrAttrKey,
+					TriumphAccountNbrAttrChangeListId,
+					Booking_Amt,
+		   'New Bookings: amount',
+		    CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					0 
+				-- select *
+			from #finalResults where Booked_Act=1 and DD_Flag =1
+			UNION ALL
+			select 
+				  @p_RunSetID,
+					@p_run,
+					applicationId,
+					TriumphAccountNbrAttrKey,
+					TriumphAccountNbrAttrChangeListId,
+					Eq5RiskScre1 ,
+		   'Average approval score',
+		    CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					0 
+				-- select    avg(cast(Eq5RiskScre1 as decimal(20,4)))
+			from #finalResults where ApplicationStatusCode in (2,5) and AppType <> '60.00' and Eq5RiskScre1 > 0  and DD_flag=1
+
+			 -- set dateformat ymd; declare @cob_date datetime = '2015-09-30', @p_RunSetID int = 134, @p_run int = -1
+			insert into [bi].[GRCR_ACQ_FactData]
+	           ([RunSetID]
+           ,[RunId]
+           ,[metric]
+           ,[metricType]
+           ,[cob_date]
+           ,[groupingID])
+	  -- declare @cob_date datetime = '2015-09-27', @p_RunSetID int = 123, @p_run int = -1
+			select	@p_RunSetID,
+					@p_run,
+					cnt,
+					'Applications: total',
+					 CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					3
+					-- select *
+			from #finalResults where CD_flag = 1  and gpid=1
+			UNION ALL
+			select 	@p_RunSetID,
+					@p_run,
+					Metric,
+					MetricType,
+					CONVERT(VARCHAR(6),@cob_date,112) AS cob_date ,
+					3
+			from (
+		  select cast(decisioned as decimal(18,4)) as 'Applications: decisioned' , 
+				 cast(approved as decimal(18,4)) as 'Applications: approved'  , 
+				  cast(Booking_Amt as decimal(18,4)) as 'New Bookings: amount'  , 
+				  cast(Booked_Act as decimal(18,4)) as 'New Bookings: account' , 
+			 
+				cast( case when app_score_count = 0 then 0 else cast(App_Score as decimal(18,4))/cast(App_Score_Count as decimal(18,4)) end as decimal(18,4))as 'Average approval score'
+		  from #finalResults
+		  where   DD_flag=1  and gpid=1 ) p
+		  UNPIVOT
+		  (
+			Metric FOR metricType IN
+			( [Applications: decisioned],[Applications: approved],[New Bookings: amount],[New Bookings: account],[Average approval score])
+		  ) as unpvt
+	
+	end
+
+		  -- select * from [bi].[GRCR_ACQ_FactData] order by metricType
+
+
+		-- Actibvate Runset
+
+
+			EXECUTE @RC = [bi].[uspRunsetManager] 
+			   @cob_date
+			  ,@p_RunSetID OUTPUT
+			  ,@p_JobDefinitionCode
+			  ,@p_run
+			,@p_debug
+		
+   
+
+			/*
+
+			select * from bi.runsets order by runsetid 
+			EXECUTE  [bi].[uspRunsetManager] 
+			   '2015-09-27'
+			  , 52 
+			  ,'ACQ_PRODUCT_OFFER'
+			  ,-1
+			,0
+			*/
+   
+	  -- END of IMPLEMENTATION
+
+	  
+
+   END TRY
+
+    BEGIN CATCH
+        -- BEGIN STANDARD CATCH BLOCK
+        -- Avoid Error app 266 -- Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements
+        BEGIN TRY EXEC app.uspStandardCatchBlock @ProcID = @@PROCID, @InitiatedTransaction = @InitiatedTransaction, @Retry = @Retry 
+
+OUTPUT; END TRY BEGIN CATCH IF (ERROR_NUMBER() <> 266) THROW; END CATCH;
+        -- END STANDARD CATCH BLOCK
+    END CATCH
+
+    -- BEGIN Log Procedure End 
+
+	EXEC [log].[uspLogInsertDB]  @p_LogCategory = 'PROC.END',@p_LogObject = @ProcName,@p_LogMessage = @ProcMessage,@p_LogLevel = 5,@p_Run = @p_Run ,@p_LoadID =@p_RunSetID 
+
+    -- END Log Procedure End 
+
+	IF OBJECT_ID(N'tempdb.dbo.#ArrearBandAttrSCD') IS NOT NULL
+		BEGIN
+		DROP TABLE #ArrearBandAttrSCD
+		END
+
+	IF OBJECT_ID(N'tempdb.dbo.#FinalResults') IS NOT NULL
+		BEGIN
+		DROP TABLE #finalResults
+		END
+	
+	IF OBJECT_ID(N'tempdb.dbo.#CreatedDateDIM') IS NOT NULL
+		BEGIN
+		DROP TABLE #CreatedDateDIM
+		END
+
+	IF OBJECT_ID(N'tempdb.dbo.#DecisionedDateDIM') IS NOT NULL
+		BEGIN
+		DROP TABLE #DecisionedDateDIM
+		END
+		
+	IF OBJECT_ID(N'tempdb.dbo.#AppChTypeCode') IS NOT NULL
+		BEGIN
+		DROP TABLE #AppChTypeCode
+		END	
+
+	IF OBJECT_ID(N'tempdb.dbo.#Product_Offer') IS NOT NULL
+		BEGIN
+		DROP TABLE #Product_Offer
+		END		
+	
+	IF OBJECT_ID(N'tempdb.dbo.#AppLatestTimestamp') IS NOT NULL
+		BEGIN
+		DROP TABLE #AppLatestTimestamp
+		END		
+			
+	IF OBJECT_ID(N'tempdb.dbo.#Res1') IS NOT NULL
+		BEGIN
+		DROP TABLE #Res1
+		END			
+
+	IF OBJECT_ID(N'tempdb.dbo.#Res4') IS NOT NULL
+		BEGIN
+		DROP TABLE #Res4
+		END			
+
+	IF OBJECT_ID(N'tempdb.dbo.#BARCLAYCARD_APPLICATION') IS NOT NULL
+		BEGIN
+		DROP TABLE #BARCLAYCARD_APPLICATION
+		END				
+
+
+END
+
+

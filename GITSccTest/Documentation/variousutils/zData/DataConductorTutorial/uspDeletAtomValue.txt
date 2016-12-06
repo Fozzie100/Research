@@ -1,0 +1,5 @@
+
+-- delete atom value
+Graham, Ian	just needed to make sure you didn't have visions of anything healthy and fast 
+Pulling, Philip	would it be quicker to delete rows out of ref.AtomValue before re-running do you reckon? 
+Graham, Ian	use this [ref].[uspDeleteAtomValue] 

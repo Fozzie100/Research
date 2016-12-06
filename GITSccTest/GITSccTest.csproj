@@ -42,11 +42,1216 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
+    <Compile Include="Documentation\variousutils\zData\RunDetail.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Calculator.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Calculator.feature.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\StateTesting.feature.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Steps\CalculatorSteps.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Steps\StateTestingSteps.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Util\DataTableExtractionMethodsDb.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Util\TableParserExtention.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Calculator.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Calculator.feature.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\StateTesting.feature.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Steps\CalculatorSteps.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Steps\StateTestingSteps.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Util\DataTableExtractionMethodsDb.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Util\TableParserExtention.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\ChunkManager.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\ChunkProcessor.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\DataAccess.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\ParameterHelper.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\Program.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\Program.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\Employee.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\Employee.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\Employee.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\Employee.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\DateConverter.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\Employee.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\GeneratedInternalTypeHelper.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\Employee.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\GeneratedInternalTypeHelper.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\GeneratedInternalTypeHelper.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\Properties\Settings.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\App.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\App.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\MainWindow.g.i.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\Properties\AssemblyInfo.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\Properties\Resources.Designer.cs" />
+    <Compile Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\Properties\Settings.Designer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Documentation\7zstuff2.7z" />
+    <None Include="Documentation\CAPE.7z" />
+    <None Include="Documentation\f999999packageexamples2.7z" />
+    <None Include="Documentation\InstallManager.7z" />
+    <None Include="Documentation\Misc.7z" />
+    <None Include="Documentation\Product File Generation.7z" />
+    <None Include="Documentation\Tools.7z" />
+    <None Include="Documentation\VariousSQLUtils.7z" />
+    <None Include="Documentation\variousutils\zData\AccountLinkingDelta\AccountLinkingDeltaTimeSeriesTesting.xlsx" />
+    <None Include="Documentation\variousutils\zData\AccountLinkingDelta\account_linking_new_changed_scripts.ps1" />
+    <None Include="Documentation\variousutils\zData\AcquistionMetricsDelta\acq_metrics_new_changed_scripts.ps1" />
+    <None Include="Documentation\variousutils\zData\AcquistionMetricsDelta\SCDTableExample.xlsx" />
+    <None Include="Documentation\variousutils\zData\biAttrSCDtableperformancechanges\sprocswithSCDTableperformanceenhancements.ps1" />
+    <None Include="Documentation\variousutils\zData\databasediagrams\GRCRFDSFReportingDBDataFlowDiagram.docx" />
+    <None Include="Documentation\variousutils\zData\databasediagrams\MARAtomRoute.docx" />
+    <None Include="Documentation\variousutils\zData\DataConductorTutorial\documentation\Documentation.chm" />
+    <None Include="Documentation\variousutils\zData\DataConductorTutorial\documentation\Documentation.chw" />
+    <None Include="Documentation\variousutils\zData\duplicatemapping.Mapping\duplicatemapping.mappingvalue.xlsx" />
+    <None Include="Documentation\variousutils\zData\Impairment_All_Transpose_20150630.csv" />
+    <None Include="Documentation\variousutils\zData\Impairment_All_Transpose_201506_GBP.csv" />
+    <None Include="Documentation\variousutils\zData\MARv4Infrastructure\dataflowdiagram.docx" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\5.non_FP_vintage_code_final.sas" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\8.Apr.sas" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\Barclaycard-UK.xls" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\Portfolio Queries.txt.xlsx" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\Portfolio QueriesJunAug.txt.xlsx" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\SSMS\selectloaderjobdefinition.snippet" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\utils\sqlcmd\Runsqlscipts - Copy.bat" />
+    <None Include="Documentation\variousutils\zData\sqlsnippets\utils\sqlcmd\Runsqlscipts.bat" />
+    <None Include="Documentation\variousutils\zData\utils\powershell\mappingduplicates.ps1" />
+    <None Include="Documentation\variousutils\zData\VintageFPSBPF\vintageFPS_refactor_scripts.ps1" />
+    <None Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\ReconcileFirstPrinciplestoFeb2016Submission.xlsx" />
+    <None Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\Calculator.feature" />
+    <None Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\StateTesting.feature" />
+    <None Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\Calculator.feature" />
+    <None Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\obj\Debug\SpecFlowTutorial.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\StateTesting.feature" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Debug\ChunkManager.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Debug\ChunkManager.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Debug\ChunkManager.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\ChunkManager.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\JunkChunkManager.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\bin\Debug\DummyConsoleApp.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\bin\Debug\DummyConsoleApp.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\bin\Debug\DummyConsoleApp.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\DummyConsoleApp.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\1-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\2-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\3-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\4-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\5-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\6-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\7-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\8-enterprise-wpf-xaml-csharp-exercise-files.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\enterprise-wpf-xaml-csharp-from-scratch.zip" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\bin\Debug\HelloWPF.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\bin\Debug\HelloWPF.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\bin\Debug\HelloWPF.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\bin\Debug\SimpleForm.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\bin\Debug\SimpleForm.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\bin\Debug\SimpleForm.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\bin\Debug\SimpleForm.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\bin\Debug\SimpleForm.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\bin\Debug\SimpleForm.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\bin\Debug\DataBindingOneWay.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\bin\Debug\DataBindingLists.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\bin\Debug\DataBindingLists.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\bin\Debug\DataBindingLists.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingTwoWay.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingTwoWay.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo_MarkupCompile.lref" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\bin\Debug\DataGrid.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\bin\Debug\DataGrid.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\bin\Debug\DataGrid.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.i.lref" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid_MarkupCompile.lref" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\bin\Debug\MenuDemo.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\bin\Debug\MenuDemo.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\bin\Debug\MenuDemo.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\bin\Debug\StatusBar.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\bin\Debug\StatusBar.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\bin\Debug\StatusBar.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\bin\Debug\TabControl.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\bin\Debug\TabControl.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\bin\Debug\TabControl.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\bin\Debug\TreeView.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\bin\Debug\TreeView.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\bin\Debug\TreeView.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\MainWindow.baml" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView.csproj.GenerateResource.Cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView.csprojResolveAssemblyReference.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView_MarkupCompile.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView_MarkupCompile.i.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\Properties\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\App.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\bin\Debug\testofinstall.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\bin\Debug\testofinstall.vshost.exe.config" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\bin\Debug\testofinstall.vshost.exe.manifest" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\My Project\Settings.settings" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\testofinstall.vbproj.GenerateResource.Cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\randmwks47jobs.sql" />
+    <Content Include="Documentation\TwoThreadsAppWorkAndFeedBackComp.txt" />
+    <Content Include="Documentation\variousutils\zData\AccountLinkingDelta\AccountLinkingDeltareserarch.sql" />
+    <Content Include="Documentation\variousutils\zData\AccountLinkingDelta\AccountLinkingDeltareserarch2.sql" />
+    <Content Include="Documentation\variousutils\zData\AccountLinkingDelta\AccountlinkingFactdeltaperformance.sql" />
+    <Content Include="Documentation\variousutils\zData\AccountLinkingDelta\CheckContiguousDatesonFDSF_TDTAAccLinkingFactDataDeltaTable.sql" />
+    <Content Include="Documentation\variousutils\zData\AccountLinkingDelta\jobdefstepsmanualrun.sql" />
+    <Content Include="Documentation\variousutils\zData\AccountLinkingDelta\REconcileDeltaandFullAccountLinkFactTable.sql" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\BCARD_PRODResearchSQLAuditTimeStamp.sql" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\FactReconciliationQueries.sql" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\FactReconciliationQueries2.sql" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\InitialNotes.txt" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\JUNO_DEV04ResearchAuditTimeStampQueriesGroupRowID.sql" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\JUNO_DEV05ResearchSQLAuditTimeStampQueries.sql" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\REs1andRes4Testing.sql" />
+    <Content Include="Documentation\variousutils\zData\AcquistionMetricsDelta\RES4Reconciliation.sql" />
+    <Content Include="Documentation\variousutils\zData\bi.uspLoadGRCR_VintageCharfeOffFPFactDataScript.sql" />
+    <Content Include="Documentation\variousutils\zData\ChunkManager\chunkmanagercommandline.txt" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\commandline\cmdline.txt" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\JobDefinitionScriptExample.sql" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\JobDefinitionScriptExample2.sql" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\SQLConfig\loader.JobDefinition_CA_GRKRI_IMPAIRMENT_CA.sql" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\uspDeletAtomValue.txt" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\utils.sql" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\XMLFilesToLoad\2015-08-23 17-14-07-10 Run=2089272, Message=1-1.xml" />
+    <Content Include="Documentation\variousutils\zData\DataConductorTutorial\XMLFilesToLoad\2015-08-23 19-31-15-70 Run=2089353, Message=2-1.xml" />
+    <Content Include="Documentation\variousutils\zData\FileNameRenameProgress.txt" />
+    <Content Include="Documentation\variousutils\zData\FILENAMERENAMEPROGRESSt.txt" />
+    <Content Include="Documentation\variousutils\zData\perforce\perforcecommandline.txt" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\AtomisationClearoutForEntity-Atom-AtomValue-AtomParticleetc - Copy.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\AtomisationClearoutForEntity-Atom-AtomValue-AtomParticleetc.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\AtomisationClearoutForEntity-Atom-AtomValue-AtomParticleetcInCorrectOrder.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\AtomisationDebug.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\AtomisationDebug2DifferentAtomsUsedWhenAContextColumnIsMissing.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\AtomisationDebug3.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\AtomisationDebug4LeftJoinToMappingValue.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\routingbatchcontroltest.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\routingbatchcontroltest2.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\routingbatchcontroltest3.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\testsprocs\bi.PP_TEST_CHUNK1.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\testsprocs\bi.PP_TEST_CHUNK2.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\testsprocs\bi.PP_TEST_CHUNK55.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\testsprocs\bi.PP_TEST_NOTCHUNK1.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\DConductorReRunControl\testsprocs\bi.PP_TEST_NOTCHUNK2.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\EntitytoDimensionListMissingRuns.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\FlowMetricsDebug.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\FPAccountsFactTable.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\gettableschemadefinition.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\biGRCR_ImparimentFactDataDebugquery.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\BPFFactTableFPAccountsAmountJun2015Analysis.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\BPFSourceFileFPAccountsAmountJul2015Analysis.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\BPFSourceFileFPAccountsAmountJun2015Analysis.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\BPFSourceFileFPAccountsdebuglowpriority.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\FPAccountsViewDevelopBCARD_SIT.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\FPAccountsViewDevelopBCARD_SITv2.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\FPAccountsViewDevelopBCARD_SITv3.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\vintageaccs\vintageFPSdebugqueries.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\vintageaccs\vintagesexcltopups.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\vintageaccs\vintagesFPS.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\vintageaccs\vintagesFPSv2N9DebtasDriver.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\vintageaccs\vintages_wip.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\GRCRBPF\vintageaccs\vintage_setup_tmp_tables.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\JUNOHADOOPproving\MissingINdex1.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\JUNOHADOOPproving\RFK360_queries transformedMissingIndex.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\JUNOHADOOPproving\RFK360_queries transformedpulledapart1.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\JUNOHADOOPproving\RFK360_queries transformedpulledapart2.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\JUNOHADOOPproving\varioustables.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\MARMappingDEbug.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\MARRelationQueryExample.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\MARTablesReverseEngineer.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\MARTablesReverseEngineerImpairment.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\RunsetIDtesting.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\DatabaseActivityquery.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\includecolumnsinindex.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\indexfragmentation.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\ListFilegroupsforTable.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\listtablendexesfilegroupspartitions.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\OpenTransactions.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\OpenTransactionsEnhanced.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\OpenTransactionsv2.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\SpaceUsedLogandPrimary.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\utils\sqlcmd\Delta.sql" />
+    <Content Include="Documentation\variousutils\zData\sqlsnippets\whoisactive\who_is_active_v11_00.sql" />
+    <Content Include="Documentation\variousutils\zData\utils\powershell\duplicates.txt" />
+    <Content Include="Documentation\variousutils\zData\utils\powershell\mapping.Mappig duplicates.xml" />
+    <Content Include="Documentation\variousutils\zData\utils\powershell\mappingduplicates.ps1.txt" />
+    <Content Include="Documentation\variousutils\zData\utils\powershell\mappingdupsquery.sql" />
+    <Content Include="Documentation\variousutils\zData\utils\processexplorer\procexp.exe" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSBPF\helperConsolidatedFactDataDifferentAccountForeignKeys.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSBPF\rolloutscript.txt" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\InitialChargeOff12MOBGoodandBadAccount.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\NewIntoForbearanceAccounts.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\NewIntoForbearanceAccountsBasedOnFact.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\NewIntoForbearanceAccountsChargeOffBasedOnSourceIntoConsolidatedFact.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\NewIntoForbearanceChargeOffAccountsBasedOnSource.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\NewIntoForbearanceChargeOffAccountsBasedOnSourcev2.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\ScriptToReportOnVintageFPs.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\Tables\Phil.ChargeOffAccountsBI.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\Tables\Phil.ChargeOffStageExtra.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\Tables\Phil.ForbearanceAccountsStageExtra.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\Tables\Phil.FPAccountsBI.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\Tables\Phil.FPAccountsChargeOffBI.sql" />
+    <Content Include="Documentation\variousutils\zData\VintageFPSFirstPrinciples\Tables\Phil.FPAccountsOriginalBalanceBI.sql" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit-console-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit-gui-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit.core.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit.core.interfaces.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit.framework.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit.framework.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit.uiexception.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit.uikit.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\nunit.util.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\SpecFlowTutorial.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\SpecFlowTutorial.dll.VisualState.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\SpecFlowTutorial.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\TechTalk.SpecFlow.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Debug\TestResult.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\obj\Debug\SpecFlowTutorial.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\obj\Debug\SpecFlowTutorial.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\obj\Debug\SpecFlowTutorial.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\obj\Debug\TempPE\Calculator.feature.cs.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\obj\Debug\TempPE\Calculator2.feature.cs.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\obj\Debug\TempPE\StateTesting.feature.cs.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\log4net.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit-console-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit-gui-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit.core.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit.core.interfaces.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit.framework.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit.framework.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit.uiexception.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit.uikit.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\nunit.util.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\References\TechTalk.SpecFlow.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\SpecFlowTutorial.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\SpecFlowTutorial.csproj.user" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit-console-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit-gui-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit.core.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit.core.interfaces.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit.framework.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit.framework.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit.uiexception.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit.uikit.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\nunit.util.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\SpecFlowTutorial.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\SpecFlowTutorial.dll.VisualState.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\SpecFlowTutorial.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\TechTalk.SpecFlow.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\bin\Debug\TestResult.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\obj\Debug\SpecFlowTutorial.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\obj\Debug\SpecFlowTutorial.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\obj\Debug\SpecFlowTutorial.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\obj\Debug\TempPE\Calculator.feature.cs.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\obj\Debug\TempPE\StateTesting.feature.cs.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\log4net.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit-console-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit-gui-runner.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit.core.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit.core.interfaces.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit.framework.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit.framework.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit.uiexception.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit.uikit.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\nunit.util.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\References\TechTalk.SpecFlow.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\SpecFlowTutorial.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial\SpecFlowTutorial\SpecFlowTutorial.csproj.user" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Debug\ChunkManager.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Debug\ChunkManager.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Debug\ChunkManager.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Debug\log4net.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\bin\Log\ChunkManager.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\ChunkManager.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\ChunkManager.csproj.user" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\ChunkManager.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\ChunkManager.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\ChunkManager.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\JunkChunkManager.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\bin\Debug\DummyConsoleApp.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\bin\Debug\DummyConsoleApp.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\bin\Debug\DummyConsoleApp.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\DummyConsoleApp.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\DummyConsoleApp.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\DummyConsoleApp.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\DummyConsoleApp.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\bin\Debug\HelloWPF.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\bin\Debug\HelloWPF.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\bin\Debug\HelloWPF.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\HelloWPF.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\bin\Debug\LayoutWithCanvas.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\LayoutWithCanvas.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\bin\Debug\LayoutWithDockPanels.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\LayoutWithDockPanels.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\bin\Debug\LayoutWithGrids.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\LayoutWithGrids.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\bin\Debug\LayoutWithStackPanel.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\LayoutWithStackPanel.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\LayoutWithWrapPanel.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\bin\Debug\SimpleForm.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\bin\Debug\SimpleForm.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\bin\Debug\SimpleForm.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\SimpleForm.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\bin\Debug\SimpleForm.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\bin\Debug\SimpleForm.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\bin\Debug\SimpleForm.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\SimpleForm.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\bin\Debug\DataBindingOneWay.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\bin\Debug\DataBindingOneWay.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\DataBindingOneWay.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\bin\Debug\DataBindingLists.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\bin\Debug\DataBindingLists.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\bin\Debug\DataBindingLists.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\DataBindingLists.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\DataBindingOneWay.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\bin\Debug\DataBindingOneWay.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\DataBindingTwoWay.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingTwoWay.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingTwoWay.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\bin\Debug\DataConverterDemo.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\DataConverterDemo.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\bin\Debug\ElementBindingDemo.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\ElementBindingDemo.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\bin\Debug\DataGrid.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\bin\Debug\DataGrid.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\bin\Debug\DataGrid.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\DataGrid.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\bin\Debug\MenuDemo.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\bin\Debug\MenuDemo.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\bin\Debug\MenuDemo.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\MenuDemo.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\bin\Debug\StatusBar.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\bin\Debug\StatusBar.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\bin\Debug\StatusBar.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\StatusBar.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\bin\Debug\TabControl.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\bin\Debug\TabControl.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\bin\Debug\TabControl.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\TabControl.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\bin\Debug\TreeView.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\bin\Debug\TreeView.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\bin\Debug\TreeView.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView.csproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\TreeView.csproj" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall.sln" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\bin\Debug\testofinstall.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\bin\Debug\testofinstall.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\bin\Debug\testofinstall.vshost.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\bin\Debug\testofinstall.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\Form1.Designer.vb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\Form1.vb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\My Project\Application.Designer.vb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\My Project\Application.myapp" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\My Project\AssemblyInfo.vb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\My Project\Resources.Designer.vb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\My Project\Settings.Designer.vb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\testofinstall.exe" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\testofinstall.pdb" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\testofinstall.vbproj.FileListAbsolute.txt" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\testofinstall.xml" />
+    <Content Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\testofinstall.vbproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\obj\Debug\HelloWPF.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise1\Code\HelloWPF\HelloWPF\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\obj\Debug\LayoutWithCanvas.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithCanvas\LayoutWithCanvas\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\obj\Debug\LayoutWithDockPanels.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithDockPanels\LayoutWithDockPanels\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\LayoutWithGrids.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\LayoutWithStackPanel.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithWrapPanel\LayoutWithWrapPanel\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\SimpleForm.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\SimpleForm.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\DataBindingOneWay.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\DataBindingLists.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\obj\Debug\DataBindingOneWay.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingTwoWay\DataBindingOneWay\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\DataConverterDemo.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\ElementBindingDemo.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\DataGrid.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\MenuDemo.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\StatusBar.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TabControl.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView.g.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TreeView.Properties.Resources.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\Properties\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\Form1.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\My Project\Resources.resx" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\testofinstall.Form1.resources" />
+    <EmbeddedResource Include="Documentation\variousutils\zData\vstudio\vs2012\testofinstall\testofinstall\obj\Debug\testofinstall.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documentation\variousutils\zData\vstudio\SpecFlowTutorial2\SpecFlowTutorial\bin\Release\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\ChunkManagerDev\ChunkManager\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\DummyConsoleApp\DummyConsoleApp\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithGrids\LayoutWithGrids\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise2\Code\LayoutWithStackPanel\LayoutWithStackPanel\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - Events\SimpleForm\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise3\Code\SimpleForm - original\SimpleForm\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingINPC\DataBindingOneWay\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingLists\DataBindingLists\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataBindingOneWay\DataBindingOneWay\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\DataConverterDemo\DataConverterDemo\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise4\Code\ElementBindingDemo\ElementBindingDemo\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise5\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\DataGrid\DataGrid\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\MenuDemo\MenuDemo\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\StatusBar\StatusBar\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TabControl\TabControl\obj\Debug\TempPE\" />
+    <Folder Include="Documentation\variousutils\zData\vstudio\vs2012\EnterpriseWPFXAMLandC#fromScratch\Exercise6\Code\TreeView\TreeView\obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

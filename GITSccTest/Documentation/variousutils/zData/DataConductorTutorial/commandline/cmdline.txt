@@ -1,0 +1,6 @@
+C:\p4wks\depot\CreditRiskIT\Projects\NDS\branches\_DEV01.br\Applications\Barcap.CreditRisk.Juno.DataConductorRunner\bin\Debug>Barcap.CreditRisk.Juno.DataConductorRunner.exe /JobCode:GRCR_Application_Input /cobDate:2015-09-21
+
+
+
+
+c:\p4wks\depot\CreditRiskIT\Projects\NDS\branches\_DEV04.br\Databases\NDSWarehouse.Database\78_BCBS239_GRCRBPF\BPFDataConductorBundle\DCRunner>Barcap.CreditRisk.Juno.DataConductorRunner.exe /JobCode:BARCLAYCARD_VNTG_ACCOUNT_DETAILS_BOOK /cobDate:2015-07-31

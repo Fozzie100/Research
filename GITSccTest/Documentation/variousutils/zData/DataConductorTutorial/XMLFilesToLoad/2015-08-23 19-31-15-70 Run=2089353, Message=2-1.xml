@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?><BCCreditAgreement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://uri.barcapint.com/BarCapML" xsi:schemaLocation="http://uri.barcapint.com/BarCapML U:/lcp/xml/Message Bus/BarCapML-4.15.7_36.0.1_corp_loans_1-at-2015-05-07-10-41-08/Schema/barcapml-credit-agreement-msg.xsd">
+<header>
+<version edition="4" major="15" minor="7" branchNumber="36" branchMajor="0" branchMinor="1" revision="0" name="corp_loans" build="1">4.15.7_36.0.1_corp_loans_1</version>
+</header>
+<documentType>
+<name>CreditAgreement</name>
+</documentType>
+<publisher>
+<system>
+<id type="bcPublisherSystem">ACBS</id>
+</system>
+</publisher>
+<event>
+<date>2015-08-23</date>
+<time>19:30:42</time>
+<eventName>Amendment</eventName>
+<effectiveDate>2015-08-24</effectiveDate>
+</event>
+<identification>
+<id type="acbsCreditAgreementId" version="6">3200030566</id>
+</identification>
+<content>
+<creditAgreementHeader>
+<creditAgreementDate>2001-09-12</creditAgreementDate>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+</creditAgreementHeader>
+<barclaysCreditAgreementRole>
+<id type="bcCreditAgreementRole">LenderOfRecord</id>
+</barclaysCreditAgreementRole>
+<syndicatedCreditAgreement>
+<agent>
+<id type="sdsCounterpartyId">10201719</id>
+</agent>
+</syndicatedCreditAgreement>
+<principalBorrower>
+<id type="sdsCounterpartyId">40120433</id>
+</principalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40259899</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40261099</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410704</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410705</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410702</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410706</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410737</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410703</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410709</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40410707</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40435212</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40445343</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40458723</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40593548</id>
+</additionalBorrower>
+<additionalBorrower>
+<id type="sdsCounterpartyId">40103346</id>
+</additionalBorrower>
+<investor>
+<lenderOfRecord>
+<id type="sdsCounterpartyId">40428873</id>
+</lenderOfRecord>
+</investor>
+<facility>
+<facilityHeader>
+<facilityId>
+<id type="acbsFacilityId">3200030566</id>
+</facilityId>
+<facilityDescription>USD 600M 364 DAY REV CREDIT</facilityDescription>
+<riskFacilityReference>9233031</riskFacilityReference>
+<middleOfficeFacilityReference>37430</middleOfficeFacilityReference>
+</facilityHeader>
+<facilityType>
+<id type="bcFacilityType">Revolving</id>
+</facilityType>
+<startDate>2001-09-12</startDate>
+<expiryDate>2016-08-01</expiryDate>
+<maturityDate>2016-08-02</maturityDate>
+<barclaysCommitment>
+<bookCommitment>
+<commitmentBook>
+<idUnknown unknownType="chorusMasterbookId"/>
+<alternateId type="acbsBook">11015.U1</alternateId>
+</commitmentBook>
+<lenderOfRecordCommitment>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40120433</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40259899</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40259899</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09897213</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40120433</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40261099</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410704</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687911</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410705</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687908</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410702</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687905</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410706</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687904</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410737</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687910</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410703</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687909</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410709</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687907</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410707</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687906</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40435212</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40445343</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40458723</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09780210</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40593548</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09897266</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40103346</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09897220</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<acrossAllBorrowers>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>00000003</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</acrossAllBorrowers>
+</lenderOfRecordCommitment>
+</bookCommitment>
+<aggregateBarclaysCommitment>
+<lenderOfRecordCommitment>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40120433</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40259899</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40259899</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09897213</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40120433</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40261099</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410704</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687911</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410705</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687908</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410702</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687905</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410706</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687904</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410737</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687910</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410703</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687909</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410709</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687907</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40410707</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09687906</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40435212</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40445343</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40458723</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09780210</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40593548</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09897266</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<perBorrower>
+<borrowerId>
+<id type="sdsCounterpartyId">40103346</id>
+</borrowerId>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>09897220</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</perBorrower>
+<acrossAllBorrowers>
+<perProduct>
+<lendingProductType>
+<productMainType>
+<id type="bclendingProductMainType">Loan</id>
+</productMainType>
+<productSubType>
+<id type="bclendingProductSubType">Loan</id>
+</productSubType>
+</lendingProductType>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</perProduct>
+<acrossAllProducts>
+<tacticalSubFacReference>00000003</tacticalSubFacReference>
+<commitmentAmount>
+<totalCommitmentAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>72000000.00</amount>
+</totalCommitmentAmount>
+<unavailableAmount>
+<currency>
+<id type="grdCurrency">USD</id>
+</currency>
+<amount>0</amount>
+</unavailableAmount>
+</commitmentAmount>
+<eligibleDrawCurrency>
+<id type="grdCurrency">USD</id>
+</eligibleDrawCurrency>
+</acrossAllProducts>
+</acrossAllBorrowers>
+</lenderOfRecordCommitment>
+</aggregateBarclaysCommitment>
+</barclaysCommitment>
+<accruingFee>
+<feeId>
+<id type="acbsFeeId">01FCF</id>
+</feeId>
+<accrualPeriod>
+<currentAccrualPeriod>
+<periodStartDate>2015-06-30</periodStartDate>
+<periodEndDate>2015-09-30</periodEndDate>
+</currentAccrualPeriod>
+<accrualPeriodFrequency>
+<periodMultiplier>3</periodMultiplier>
+<period>M</period>
+</accrualPeriodFrequency>
+<nextRateFixingDate>2016-08-02</nextRateFixingDate>
+<nextPaymentDate>2015-09-30</nextPaymentDate>
+<paymentFrequency>
+<periodMultiplier>3</periodMultiplier>
+<period>M</period>
+</paymentFrequency>
+<businessDayRule>
+<businessDayConvention>NONE</businessDayConvention>
+<businessCenters>
+<businessCenter>
+<id type="fpmlBusinessCenter">NYFD</id>
+</businessCenter>
+<businessCenter>
+<id type="fpmlBusinessCenter">GBLO</id>
+</businessCenter>
+</businessCenters>
+</businessDayRule>
+<dayCountFraction>
+<id type="bcDayCountFraction">ACT/360</id>
+</dayCountFraction>
+<fixedRate>true</fixedRate>
+</accrualPeriod>
+<accrualBalance>
+<id type="bcAccrualBalance">72000000.00</id>
+</accrualBalance>
+<flatRateAccrual>
+<marginRate>0.080000</marginRate>
+</flatRateAccrual>
+</accruingFee>
+<fixedFee>
+<feeId>
+<id type="acbsFeeId">02FND</id>
+</feeId>
+<feePeriod>
+<periodStartDate>2009-09-03</periodStartDate>
+<periodEndDate>2010-09-01</periodEndDate>
+</feePeriod>
+<businessDayRule>
+<businessDayConvention>NONE</businessDayConvention>
+<businessCenters>
+<businessCenter>
+<id type="fpmlBusinessCenter">NYFD</id>
+</businessCenter>
+<businessCenter>
+<id type="fpmlBusinessCenter">GBLO</id>
+</businessCenter>
+</businessCenters>
+</businessDayRule>
+</fixedFee>
+<fixedFee>
+<feeId>
+<id type="acbsFeeId">03FND</id>
+</feeId>
+<feePeriod>
+<periodStartDate>2010-09-01</periodStartDate>
+<periodEndDate>2011-08-31</periodEndDate>
+</feePeriod>
+<businessDayRule>
+<businessDayConvention>NONE</businessDayConvention>
+<businessCenters>
+<businessCenter>
+<id type="fpmlBusinessCenter">GBLO</id>
+</businessCenter>
+<businessCenter>
+<id type="fpmlBusinessCenter">NYFD</id>
+</businessCenter>
+</businessCenters>
+</businessDayRule>
+</fixedFee>
+</facility>
+</content>
+</BCCreditAgreement>

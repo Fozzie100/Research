@@ -1,0 +1,58 @@
+*** barclaycard_account_header_<YYYYMM>.csv
+*** barclaycard_account_Linking_<YYYYMM>.csv
+*** barclaycard_x_Portfolio_Ptp_Moves_<YYYYMM>.csv
+**************barclaycard_cardholder_memo_<YYYYMM>.csv already done
+*** barclaycard_DM_N9_ROUTER_account_<YYYYMM>.csv
+*** barclaycard_DM_NY_EXTRA_ROUTER_DETAIL_1_<YYYYMM>.csv
+*** barclaycard_acct_List_Final_<YYYYMM>.csv
+*** barclaycard_dm_tc_debt_item_<YYYYMM>.csv
+*** barclaycard_DM_KE_EXTRA_DETAILS_DATES_<YYYYMM>.csv
+*** barclaycard_bcbs_BUK_<YYYYMM>.csv
+*** barclaycard_bcbs_egg_<YYYYMM>.csv 
+*** barclaycard_impairment_all_trsps_gbp_<YYYYMM>.csv
+*** barclaycard_BCUK_ COF_Income_YYYYMM.csv
+*** barclaycard_New_accs_summy_BBC_<YYYYMM>.csv
+*** barclaycard_PRICEPOINT_SUMMARY_<YYYYMM>.csv
+*** barclaycard_RC_EXP_RY_<YYYYMM>.csv
+*** barclaycard_EC_EXP_RY_<YYYYMM>.csv
+*** barclaycard_application_<YYYYMM>.csv
+**************** barclaycard_SDS_IF023_APPLICATION_<YYYYMM>.csv
+*************** barclaycard_application_channel_type_<YYYYMM>.csv
+*** barclaycard_product_offer_<YYYYMM>.csv
+****************** barclaycard_SDS_IF023_RESULTS1_<YYYYMM>.csv
+****************** barclaycard_SDS_IF023_RESULTS4_<YYYYMM>.csv
+*** barclaycard_bc_history_<YYYYMM>.csv
+********* barclaycard_BC_history_BIW_<YYYYMM>.csv already done
+*** barclaycard_tran_promo_table_<YYYYMM>.csv                   
+** barclaycard_transaction_table_<YYYYMM>.csv                   
+******************* barclaycard_Reage_<YYYYMMDD>.csv  already done
+*** "barclaycard_Chargeoff_data_<YYYYMM>.csv
+(Please see scripts tab)"
+*** historical File(barclaycard_Trended-Delinq_<YYYYMM>.csv )       
+*** barclaycard_impair_base_<YYYYMM>.csv
+*** barclaycard_vntg_netbalance_finance_noyr_<YYYYMM>.csv
+*** barclaycard_imp_stock_acct_<YYYYMM>.csv
+*** "barclaycard_WOS_<YYYYMM>.csv
+(a file with WOs_&ddmonyyyy.csv to be provided by clubbing writeoffs+JR_trans. Please see the scripts tab)"
+*** barclaycard_n9debtp_<YYYYMM>.csv
+*** barclaycard_G1DEBTP_<YYYYMM>.csv
+*** barclaycard_KFDEBTP_<YYYYMM>.csv
+*** barclaycard_KEDEBTP_<YYYYMM>.csv
+*** barclaycard_TCDEBTP_<YYYYMM>.csv
+*** barclaycard_bpf_appfile_<YYYYMM>.csv
+*** barclaycard_bpf_vntg_account_details_book_<YYYYMM>.csv
+*** barclaycard_bpf_vntg_arrslvlgrip_book_noyr_<YYYYMM>.csv
+*** barclaycard_bpf_vntg_bal_book_noyr_<YYYYMM>.csv
+*** barclaycard_bpf_KNTRSKPF_<YYYYMM>.csv
+*** barclaycard_bpf_Ext_oth_<YYYYMM>.csv
+*** barclaycard_bpf_Ext_imp_<YYYYMM>.csv
+*** barclaycard_bpf_Ext_fin_<YYYYMM>.csv
+*** barclaycard_bpf_chgoff_data.csv
+*** barclaycard_bpf_FP_Data.csv
+*** barclaycard_bc_history_final_<YYYYMM>.csv
+****************** barclaycard_credit_limit_history_<YYYYMM>.csv already done
+******************* barclaycard_cumulative_file_prevday_<YYYYMM>.csv already done
+******************* barclaycard_cld_cumulative_<YYYYMM>.csv already done
+******************* barclaycard_rf_Cli_driver_MI_Reporting_<YYYYMM>.csv already done
+******************* barclaycard_totallims_<YYYYMM>.csv already done
+******************* barclaycard_account_linking_tp_<YYYYMM>.csv  already done

@@ -1,0 +1,9 @@
+
+--
+-- perforce command line utils
+-- 1. All checked out files in depot
+-- 2. regular expression search for "#MappedOutputPrimary"
+
+C:\Program Files (x86)\Perforce>p4 opened -a -s //depot/CreditRiskIT/Projects/NDS/branches/_DEV04.br/Databases/NDSWarehouse.Database/74_BCBS239/...
+
+C:\Program Files (x86)\Perforce>p4 grep -e "#MappedOutputPrimary" //depot/CreditRiskIT/Projects/NDS/branches/_DEV04.br/Databases/NDSWarehouse.Database/78_BCBS239_GRCRBPF/MARv4/...

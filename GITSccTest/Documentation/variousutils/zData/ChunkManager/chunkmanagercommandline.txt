@@ -1,0 +1,54 @@
+C:\Applications\ChunkManager>ChunkManager.exe ConnectionString="data source=LDNDCM05330V05B\LF6_MAIN2_DEV;initial catalog=JUNO_DEV05;integrated security=True;" @p_run=16855 Span=500000 ChunkingProcess=ref.uspProcessBarclaycardTDTAMetricAtomiseChunk  StagingTable=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA MaxThreads=4 @p_cobe=20150531
+
+
+
+<Parameters>ConnectionString="[[ConnectionString]]" @p_run=[[run]] Span=500000 ChunkingProcess=bi.uspLoadFDSF_TDTAAccLinkingFactDataChunk  StagingTable=stg.BARCLAYCARD_ACCOUNT_LINKING MaxThreads=6 @p_cobdate=[[CobDate|ddMMMyyyy]] @p_stg_table_name='stg.BARCLAYCARD_ACCOUNT_LINKING' @p_run_if_lpf=[[run]] </Parameters>
+
+
+C:\Applications\ChunkManager>ChunkManager.exe ConnectionString="data source=LDNDCM05330V05B\LF6_MAIN2_DEV;initial catalog=JUNO_DEV05;integrated security=True;" @p_run=1 Span=500000 ChunkingProcess=bi.uspLoadFDSF_TDTAAccLinkingFactDataChunk  StagingTable=stg.BARCLAYCARD_ACCOUNT_LINKING MaxThreads=6 @p_cobdate=20150531
+@p_stg_table_name=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA
+
+
+C:\Applications\ChunkManager>ChunkManager.exe ConnectionString="data source=LDNDCM05330V05B\LF6_MAIN2_DEV;initial catalog=JUNO_DEV05;integrated security=True;" @p_run=76 Span=500000 ChunkingProcess=bi.uspLoadFDSF_TDTAAccLinkingFactDataChunk  StagingTable=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA MaxThreads=6 @p_cobdate=201
+50531  @p_stg_table_name=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA
+
+C:\Applications\ChunkManager>ChunkManager.exe ConnectionString="data source=LDNDCM05330V05B\LF6_MAIN2_DEV;initial catalog=JUNO_DEV05;integrated security=True;" @p_run=76 Span=500000 ChunkingProcess=bi.uspProcessBarclaycardTDTAMetricAtomiseChunk  StagingTable=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA MaxThreads=6 @p_cobdate
+=20150531  @p_stg_table_name=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA
+
+C:\Applications\ChunkManager>ChunkManager.exe ConnectionString="data source=LDNDCM05330V05B\LF6_MAIN2_DEV;initial catalog=JUNO_DEV05;integrated security=True;" @p_run=76 Span=500000 ChunkingProcess=ref.uspProcessBarclaycardTDTAMetricAtomiseChunk  StagingTable=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA MaxThreads=6 @p_cobdat
+e=20150531  @p_stg_table_name=stg.BARCLAYCARD_ACCOUNT_LINKING_DELTA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5
